@@ -25,8 +25,8 @@ This project requires setting up both the backend server and the Chrome extensio
 
 ```bash
 # 1. Clone the repository (Or navigate to where you downloaded/created the project)
-# git clone https://github.com/[YOUR GITHUB USERNAME]/[YOUR REPO NAME].git
-# cd [YOUR REPO NAME]/backend
+# git clone https://github.com/sumanthrdypam/linkedin-resume-tailor.git
+# cd linkedin-resume-tailor/backend
 
 # 2. Install dependencies (Run from within the 'backend' directory)
 npm install
@@ -96,6 +96,9 @@ Known Issues / Limitations
     Basic PDF Formatting: The PDF generation uses basic Markdown parsing (#, ##, lists) for structure but does not currently handle inline formatting like bold text within paragraphs robustly.
 
     Error Handling: Error handling can be further improved for edge cases.
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/sumanthrdypam/linkedin-resume-tailor/issues).
 ```
+
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
