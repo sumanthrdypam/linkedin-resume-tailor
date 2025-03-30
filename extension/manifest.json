@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "LN Resume Tailor (Popup)", 
+    "version": "1.0",
+    "description": "Click extension icon on LinkedIn job pages to generate tailored PDF resume.",
+    "permissions": [
+      "storage",      
+      "scripting",    
+      "downloads",    
+      "activeTab"    
+    ],
+    "host_permissions": [
+      "*://*.linkedin.com/jobs/*", 
+      "http://localhost:3000/*"    
+    ],
+    "background": {
+      "service_worker": "background.js" 
+    },
+    "options_page": "options.html", 
+    "action": {
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      },
+      "default_title": "Generate Tailored Resume", 
+      "default_popup": "popup.html" 
+    },
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }

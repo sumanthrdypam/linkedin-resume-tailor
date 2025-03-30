@@ -1,0 +1,9 @@
+<!-- extension/options.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Tailor Options</title> <meta charset="UTF-8">
+    <style> body { font-family: sans-serif; padding: 20px; width: 500px; } label { display: block; margin-bottom: 8px; font-weight: bold; } textarea { width: 95%; height: 300px; margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; } button { padding: 10px 20px; cursor: pointer; background-color: #0a66c2; color: white; border: none; border-radius: 4px; font-size: 16px; } button:hover { background-color: #004182; } #status { margin-top: 15px; font-weight: bold; padding: 10px; border-radius: 4px; display: none; } .success { background-color: #d4edda; color: #155724; } .error { background-color: #f8d7da; color: #721c24; } </style>
+</head>
+<body> <h1>Resume Tailor Settings</h1> <p>Paste your base resume below.</p> <label for="baseResume">Your Base Resume:</label> <textarea id="baseResume" placeholder="Paste resume text here..."></textarea> <button id="saveButton">Save Base Resume</button> <div id="status"></div> <script src="options.js"></script> </body>
+</html>
